@@ -51,7 +51,7 @@ const color = ['lime','deeppink','chartreuse','turquoise','greenyellow',
 
 // creating websocket object port must be matched to server port number
 
-const ws = new WebSocket('wss://nainchat-fxqopxrh8-nainyts-projects.vercel.app/');
+const ws = new WebSocket("wss://" + location.host + "/");
 
 //adding custom function to websocket Class
 WebSocket.prototype.emit = function(event, data){
