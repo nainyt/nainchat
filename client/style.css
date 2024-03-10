@@ -276,7 +276,7 @@ body{
   .main{
     justify-content: center;
     width: auto;
-    margin: 20px 0;
+    margin: 20px 0 50px 0;
   }
   .chat-container {
     padding: 4px ;
@@ -285,6 +285,9 @@ body{
   .chat-container h1{
     display: none;
     
+  }
+  .type-area button {
+    width: auto;
   }
   
 }
