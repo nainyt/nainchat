@@ -290,6 +290,6 @@ body{
     width: auto;
   }
   .msg-box{
-    font-size: 14;
+    font-size: 14px !important;
   }
 }
