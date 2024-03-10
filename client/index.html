@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Chat Room</title>
+</head>
+<body>
+  <div class="box">
+    <div class="main">
+    
+      <!-- model box for username -->
+      <div class="model-box">
+        <h1>Chat-Room</h1>
+        <h2>Let's Chat Together</h2>
+        <div>
+          <h3>Enter your name</h3>
+          <input type="text" placeholder="Enter your name" maxlength="30">
+          <button id="join">Join!</button>
+        </div>
+        <p class="error">Please enter your name!</p>
+      </div>
+
+      <!-- online users container -->
+      <div class="online-user">
+        <div class="themes">
+          <div class="a1" onclick="changetheme(this)"></div>
+          <div class="a2" onclick="changetheme(this)"></div>
+          <div class="a3" onclick="changetheme(this)"></div>
+          <div class="a4" onclick="changetheme(this)"></div>
+        </div>
+        <h4>Online Users!</h4>
+     
+        <ul>
+          
+        </ul>
+      </div>
+
+      <!-- Main chat container -->
+      <div class="chat-container">
+        <h1>Chat-Room Let's Chat Together</h1>
+        <div class="chat-area">
+
+        </div>
+
+        <div id="typing-user"> </div>
+        <div class="type-area">
+          <input type="text" id="msgtxt" placeholder="Type a message" maxlength="500">
+          <button id="sendbtn"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
