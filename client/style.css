@@ -279,6 +279,7 @@ body{
     margin: 20px 0 50px 0;
   }
   .chat-container {
+    width: 100%;
     padding: 4px ;
     
   }
@@ -296,9 +297,23 @@ body{
     font-size: 11px !important;
   }
   .main{
-    height: 92%;
+    height: calc(100% - 60px);
     width: 100%;
     margin: 0 !important;
     border-radius: 0  !important;
+  }
+  .type-area {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #msgtxt{
+    width: calc(100% - 50px);
+    outline: none;
+    border: none;
+    height: 44px;
+    border-radius: 3px;
+    padding: 3px 3px 3px 6px;
   }
 }
